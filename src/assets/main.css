@@ -3,3 +3,27 @@
 nav {
   z-index: 10;
 }
+
+section {
+  min-height: 100vh;
+  padding: 5rem 9% 2rem;
+}
+
+.customer_details {
+  max-width: 80rem;
+  margin: 1rem auto;
+  margin-bottom: 1.5rem;
+}
+
+.text-red {
+  color: red;
+}
+
+.button-set {
+  border: none;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  width: max-content;
+  height: max-content;
+}
