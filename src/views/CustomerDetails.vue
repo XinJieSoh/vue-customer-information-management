@@ -122,7 +122,6 @@ watchField(() => newCustomer.value.phone, phoneError, 'Phone is required.');
 onMounted(async () => {
     if (currentId) {
         customer = await customerStore.getCustomerById(currentId);
-        console.log('customer dob:', customer.dob)
         if (route.path.includes('edit')) {
             submitButtonText.value = 'Save Changes';
             isViewMode.value = false;
