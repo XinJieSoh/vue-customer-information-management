@@ -1,7 +1,5 @@
 # vue-customer-information-management
 
-This template should help get you started developing with Vue 3 in Vite.
-
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
@@ -15,6 +13,9 @@ TypeScript cannot handle type information for `.vue` imports by default, so we r
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Project Setup
+Git clone the project.
+
+Copy the example.env file and rename it to the .env, change the VITE_API_URL to your own API URL.
 
 ```sh
 npm install
