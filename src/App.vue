@@ -7,11 +7,9 @@ const authStore = useAuthStore();
 </script>
 
 <template>
-    <div class="app-container" :class="authStore.user && 'bg-light'">
+    <div>
         <HeaderComponent v-if="authStore.isAuthenticated"/>
-        <div class="container pt-4 pb-4">
-            <RouterView />
-        </div>
+        <RouterView />
     </div>
 </template>
 

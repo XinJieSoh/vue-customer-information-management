@@ -1,7 +1,7 @@
 <template>
-    <section>
-        <h2> Registration</h2>
-        <h4> Please fill in the following information:</h4>
+    <section class="background-image">
+        <h2> Registration </h2>
+        <h4> Please fill in the following information: </h4>
         <div class="card m-1 bg-primary-subtle">
             <form class="container-fluid customer_details" @submit.prevent="handleRegister">
                 <div class="mb-3">
