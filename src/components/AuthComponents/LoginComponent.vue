@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="background-image">
     <h2> Welcome to MyCustomer System.</h2>
     <h4> Please login:</h4>
     <div class="card m-1 bg-primary-subtle">
